@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "Zomi Catholic",
+  "short_name": "Zomi Catholic",
+  "description": "Search and read hymns in the Zomi Catholic hymnal.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#f7f5ee",
+  "background_color": "#f7f5ee",
+  "icons": [
+    { "src": "labu-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "labu-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
