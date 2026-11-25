@@ -48,15 +48,20 @@ function OfflineStatus({ ready }) {
   return ready && <span className="offline-status"><Check size={15} aria-hidden="true" /> Available offline</span>;
 }
 
-function HymnLyrics({ lyrics }) {
+function HymnLyrics({ lyrics, language }) {
   return (
     <>
-      <p className="hymn-music"><span>Doh is {lyrics.doh}</span><span>Timing {lyrics.timing}</span></p>
+      <p className="hymn-music">
+        {lyrics.key && <span>Key {lyrics.key}</span>}
+        {lyrics.doh && <span>Doh is {lyrics.doh}</span>}
+        {lyrics.expression && <span>{lyrics.expression}</span>}
+        {lyrics.timing !== undefined && <span>{lyrics.timing ? `Timing ${lyrics.timing}` : 'Timing'}</span>}
+      </p>
       <div className="hymn-lyrics">
         {lyrics.stanzas.map(({ label, lines }) => (
           <div className={`stanza ${label === 'Chorus' ? 'chorus' : ''}`} key={label}>
             <h3 className="stanza-label">{label}</h3>
-            <p lang="ctd">{lines.join('\n')}</p>
+            <p lang={language}>{lines.join('\n')}</p>
           </div>
         ))}
       </div>
@@ -122,7 +127,7 @@ function HymnDetail({ hymn, onClose, onSearch, textSize, onTextSizeChange, dim, 
       </header>
       <div className="detail-inner" data-text-size={textSize}>
         {hymn.lyrics
-          ? <HymnLyrics lyrics={hymn.lyrics} />
+          ? <HymnLyrics lyrics={hymn.lyrics} language={hymn.language} />
           : <p className="detail-message">Lyrics are currently unavailable for this hymn.</p>}
       </div>
     </dialog>
