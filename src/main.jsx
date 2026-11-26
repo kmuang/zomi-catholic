@@ -1,11 +1,25 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { BookOpen, Check, ChevronLeft, House, Info, List, Search, X } from 'lucide-react';
+import { BookOpen, Check, ChevronDown, ChevronLeft, House, Info, List, Search, X } from 'lucide-react';
 import { galHiamHymns, hymns } from './hymns';
 import InstallButton from './InstallButton';
+import { assortedPrayers, dailyPrayers, marianPrayers } from './prayers';
 import './styles.css';
 
 const galHiamCover = '/gal-hiam-book.png';
+const prayersByNumber = { 1: assortedPrayers, 2: marianPrayers, 3: dailyPrayers };
+const prayerTitles = [
+  'Thungetna tuam tuam',
+  'Tonu Maria tung thungetna',
+  'Nisim thungetna',
+  'Hunzui thungetna',
+  'Inn thupha piakna',
+  'Missa Biakpiakna',
+  'Athu tawh Biakpiakna',
+  'Mawhsut dan',
+  'Singlamteh lam Zuih na',
+  'Missi tawh kisai',
+];
 const sectionCounts = new Map();
 for (const { section } of hymns) {
   sectionCounts.set(section, (sectionCounts.get(section) ?? 0) + 1);
@@ -40,8 +54,9 @@ function normalize(text) {
     .replace(/[^\p{L}\p{M}\p{N}]+/gu, ' ').trim();
 }
 
-function isGalHiamUrl() {
-  return new URLSearchParams(window.location.search).get('collection') === 'gal-hiam';
+function collectionFromUrl() {
+  const collection = new URLSearchParams(window.location.search).get('collection');
+  return collection === 'gal-hiam' || collection === 'thungetna' ? collection : 'home';
 }
 
 function OfflineStatus({ ready }) {
@@ -135,7 +150,10 @@ function HymnDetail({ hymn, onClose, onSearch, textSize, onTextSizeChange, dim, 
 }
 
 function App() {
-  const [galHiamOpen, setGalHiamOpen] = useState(isGalHiamUrl);
+  const [activeCollection, setActiveCollection] = useState(collectionFromUrl);
+  const galHiamOpen = activeCollection === 'gal-hiam';
+  const prayersOpen = activeCollection === 'thungetna';
+  const homeOpen = activeCollection === 'home';
   const [query, setQuery] = useState('');
   const [activeHymn, setActiveHymn] = useState(null);
   const [textSize, setTextSize] = useState(() => {
@@ -167,7 +185,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (galHiamOpen || term) return;
+    if (!homeOpen || term) return;
     const headings = sections.map(({ id }) => document.getElementById(id));
     let frame = null;
     function updateSection() {
@@ -200,7 +218,7 @@ function App() {
       window.removeEventListener('scroll', scheduleUpdate);
       window.removeEventListener('resize', scheduleUpdate);
     };
-  }, [galHiamOpen, term]);
+  }, [homeOpen, term]);
 
   useEffect(() => {
     if (!jumpSection) return;
@@ -223,26 +241,26 @@ function App() {
 
   useEffect(() => {
     function restoreCollection() {
-      const nextCollection = isGalHiamUrl();
-      if (nextCollection === galHiamOpen) return;
+      const nextCollection = collectionFromUrl();
+      if (nextCollection === activeCollection) return;
       setActiveHymn(null);
       categories.current?.close();
       setCurrentSection(null);
       setQuery('');
-      setGalHiamOpen(nextCollection);
+      setActiveCollection(nextCollection);
     }
     window.addEventListener('popstate', restoreCollection);
     return () => window.removeEventListener('popstate', restoreCollection);
-  }, [galHiamOpen]);
+  }, [activeCollection]);
 
   function openCollection(nextCollection) {
-    if (nextCollection !== galHiamOpen) {
+    if (nextCollection !== activeCollection) {
       const url = new URL(window.location.href);
-      if (nextCollection) url.searchParams.set('collection', 'gal-hiam');
+      if (nextCollection !== 'home') url.searchParams.set('collection', nextCollection);
       else url.searchParams.delete('collection');
       url.hash = '';
       window.history.pushState(null, '', url);
-      setGalHiamOpen(nextCollection);
+      setActiveCollection(nextCollection);
       setCurrentSection(null);
     }
     setQuery('');
@@ -285,14 +303,15 @@ function App() {
   }
 
   const hymnNumber = /^(?:(?:hymn|no)\s+)?0*(\d+)$/.exec(term)?.[1];
-  const collection = galHiamOpen ? galHiamHymns : hymns;
+  const prayerEntries = prayerTitles.map((title, index) => ({ title, number: index + 1 }));
+  const collection = prayersOpen ? prayerEntries : galHiamOpen ? galHiamHymns : hymns;
   const visible = collection.filter((hymn) => {
     return hymnNumber
       ? hymn.number === Number(hymnNumber)
       : normalize(hymn.title).includes(term);
   });
   const groups = new Map();
-  for (const hymn of visible) {
+  for (const hymn of prayersOpen ? [] : visible) {
     const section = hymn.section ?? null;
     if (!groups.has(section)) groups.set(section, []);
     groups.get(section).push(hymn);
@@ -300,23 +319,26 @@ function App() {
 
   return (
     <>
-      <a className="skip-link" href="#hymn-index">Skip to hymn index</a>
+      <a className="skip-link" href="#hymn-index">Skip to {prayersOpen ? 'prayer' : 'hymn'} index</a>
       <header className="topbar">
         <div className="topbar-inner">
           <a className="brand" href={window.location.pathname} onClick={(event) => {
             if (event.metaKey || event.ctrlKey || event.altKey || event.shiftKey) return;
             event.preventDefault();
-            openCollection(false);
+            openCollection('home');
           }}>
             <img src="/church-logo-192.png" width="42" height="42" alt="" />
             <span>Zomi Catholic</span>
           </a>
           <nav className="desktop-nav" aria-label="Hymnal">
-            <button type="button" className="nav-button" aria-current={!galHiamOpen ? 'page' : undefined} onClick={() => openCollection(false)}>
+            <button type="button" className="nav-button" aria-current={homeOpen ? 'page' : undefined} onClick={() => openCollection('home')}>
               <BookOpen size={17} aria-hidden="true" /> Hymn index
             </button>
-            <button type="button" className="nav-button" aria-current={galHiamOpen ? 'page' : undefined} onClick={() => openCollection(true)}>
+            <button type="button" className="nav-button" aria-current={galHiamOpen ? 'page' : undefined} onClick={() => openCollection('gal-hiam')}>
               <img src={galHiamCover} width="15" height="22" alt="" /> <span lang="ctd">Gal Hiam Labu</span>
+            </button>
+            <button type="button" className="nav-button" aria-current={prayersOpen ? 'page' : undefined} onClick={() => openCollection('thungetna')}>
+              <span aria-hidden="true">🙏</span> <span lang="ctd">Thungetna</span>
             </button>
           </nav>
           <InstallButton />
@@ -326,7 +348,7 @@ function App() {
       <main className="page" id="top">
         <section className={`cover${galHiamOpen ? ' cover-gal-hiam' : ''}`} aria-labelledby="cover-title">
           <div className="cover-copy">
-            {galHiamOpen
+            {prayersOpen ? <h1 id="cover-title" lang="ctd">Thungetna</h1> : galHiamOpen
               ? <h1 id="cover-title" lang="ctd">Gal Hiam Phatna Labu</h1>
               : <h1 id="cover-title">Zomi <span>Catholic</span></h1>}
           </div>
@@ -336,17 +358,17 @@ function App() {
                 <div className="window-frame"><div className="window-image" /></div>
               </div>}
         </section>
-        <section className="index" id="hymn-index" tabIndex={-1} ref={main} aria-label="Hymn index">
+        <section className="index" id="hymn-index" tabIndex={-1} ref={main} aria-label={prayersOpen ? 'Prayer index' : 'Hymn index'}>
           <div className="search-anchor" ref={searchAnchor} />
           <div className="search-toolbar" ref={searchToolbar}>
             <form className="search" role="search" onSubmit={(event) => {
               event.preventDefault();
               search.current?.blur();
-              if (hymnNumber && visible.length === 1) openHymn(visible[0], search.current);
+              if (!prayersOpen && hymnNumber && visible.length === 1) openHymn(visible[0], search.current);
             }}>
               <Search size={21} strokeWidth={1.8} aria-hidden="true" />
               <input type="search" placeholder="Title or number"
-                aria-label="Search by title or hymn number"
+                aria-label={prayersOpen ? 'Search by title or prayer number' : 'Search by title or hymn number'}
                 value={query} ref={search} onChange={(event) => changeQuery(event.target.value)}
                 autoComplete="off" enterKeyHint="search" />
               {query ? (
@@ -355,19 +377,55 @@ function App() {
                 </button>
               ) : <kbd aria-hidden="true">/</kbd>}
             </form>
-            {!galHiamOpen && <button type="button" className="categories-button" aria-haspopup="dialog"
+            {homeOpen && <button type="button" className="categories-button" aria-haspopup="dialog"
               onClick={() => categories.current.showModal()}>
               <List size={19} aria-hidden="true" /> Categories
             </button>}
-            {!galHiamOpen && !term && currentSection && (
+            {homeOpen && !term && currentSection && (
               <p className="current-section" lang="ctd">{currentSection}</p>
             )}
           </div>
           <div className="index-heading">
-            <p className="result-count" aria-live="polite">{visible.length} {visible.length === 1 ? 'hymn' : 'hymns'}</p>
+            <p className="result-count" aria-live="polite">{visible.length} {prayersOpen ? 'prayer' : 'hymn'}{visible.length === 1 ? '' : 's'}</p>
             <OfflineStatus ready={offlineReady} />
           </div>
           {visible.length ? (
+            prayersOpen ? (
+              <ol className="hymn-list prayer-titles" role="list" lang="ctd" aria-label="Thungetna">
+                {visible.map(({ title, number }) => {
+                  const row = (
+                    <>
+                      <span className="hymn-number">{String(number).padStart(2, '0')}</span>
+                      <span className="hymn-title">{title}</span>
+                    </>
+                  );
+                  return (
+                    <li className="hymn-row" key={number}>
+                      {prayersByNumber[number] ? (
+                        <details>
+                          <summary className="hymn-open">{row}<ChevronDown size={18} aria-hidden="true" /></summary>
+                          <div className="prayer-content">
+                            {prayersByNumber[number].map(({ title: prayerTitle, subtitle, text }) => (
+                              <section className="prayer" key={prayerTitle}>
+                                <h3>{prayerTitle}</h3>
+                                {subtitle && <h4>{subtitle}</h4>}
+                                {text.split('\n\n').map((paragraph, paragraphIndex) => (
+                                  <p key={paragraphIndex}>
+                                    {paragraph.split('\n').map((line, lineIndex) => (
+                                      <span className="prayer-line" key={lineIndex}>{line}</span>
+                                    ))}
+                                  </p>
+                                ))}
+                              </section>
+                            ))}
+                          </div>
+                        </details>
+                      ) : <div className="hymn-open">{row}</div>}
+                    </li>
+                  );
+                })}
+              </ol>
+            ) :
             [...groups].map(([section, sectionHymns]) => (
               <div className="hymn-group" key={section ?? 'gal-hiam'}>
                 {section && <h2 className="hymn-group-title" id={sectionIds.get(section)} tabIndex={-1} lang="ctd">{section}</h2>}
@@ -389,8 +447,8 @@ function App() {
           ) : (
             <div className="empty">
               <Search size={26} aria-hidden="true" />
-              <h2>No matching hymns</h2>
-              <p>Try a different title or hymn number.</p>
+              <h2>No matching {prayersOpen ? 'prayers' : 'hymns'}</h2>
+              <p>Try a different title or {prayersOpen ? 'prayer' : 'hymn'} number.</p>
               <button className="empty-button" type="button" onClick={() => {
                 changeQuery('');
                 search.current.focus();
@@ -401,11 +459,14 @@ function App() {
       </main>
 
       <nav className="bottom-nav" aria-label="Hymnal">
-        <button className="tab" type="button" aria-current={!galHiamOpen ? 'page' : undefined} onClick={() => openCollection(false)}>
+        <button className="tab" type="button" aria-current={homeOpen ? 'page' : undefined} onClick={() => openCollection('home')}>
           <span className="tab-icon"><House size={21} aria-hidden="true" /></span><span>Home</span>
         </button>
-        <button className="tab" type="button" aria-current={galHiamOpen ? 'page' : undefined} onClick={() => openCollection(true)}>
+        <button className="tab" type="button" aria-current={galHiamOpen ? 'page' : undefined} onClick={() => openCollection('gal-hiam')}>
           <img src={galHiamCover} width="19" height="28" alt="" /><span lang="ctd">Gal Hiam Labu</span>
+        </button>
+        <button className="tab" type="button" aria-current={prayersOpen ? 'page' : undefined} onClick={() => openCollection('thungetna')}>
+          <span className="tab-icon prayer-icon" aria-hidden="true">🙏</span><span lang="ctd">Thungetna</span>
         </button>
         <button className="tab" type="button" aria-haspopup="dialog" onClick={() => about.current.showModal()}>
           <span className="tab-icon"><Info size={21} aria-hidden="true" /></span><span>About</span>
@@ -431,7 +492,7 @@ function App() {
           </div>
         </div>
       </dialog>
-      {!galHiamOpen && <dialog className="detail categories-dialog" ref={categories} aria-labelledby="categories-title"
+      {homeOpen && <dialog className="detail categories-dialog" ref={categories} aria-labelledby="categories-title"
         onClick={(event) => { if (event.target === event.currentTarget) categories.current.close(); }}>
         <div className="categories-panel">
           <header className="categories-heading">
