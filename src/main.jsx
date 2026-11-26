@@ -3,11 +3,11 @@ import { createRoot } from 'react-dom/client';
 import { BookOpen, Check, ChevronDown, ChevronLeft, House, Info, List, Search, X } from 'lucide-react';
 import { galHiamHymns, hymns } from './hymns';
 import InstallButton from './InstallButton';
-import { assortedPrayers, dailyPrayers, marianPrayers } from './prayers';
+import { assortedPrayers, confessionPrayers, dailyPrayers, funeralPrayers, houseBlessingPrayers, marianPrayers, massPrayers, occasionPrayers, stationsOfTheCross, wordServicePrayers } from './prayers';
 import './styles.css';
 
 const galHiamCover = '/gal-hiam-book.png';
-const prayersByNumber = { 1: assortedPrayers, 2: marianPrayers, 3: dailyPrayers };
+const prayersByNumber = { 1: assortedPrayers, 2: marianPrayers, 3: dailyPrayers, 4: occasionPrayers, 5: houseBlessingPrayers, 6: massPrayers, 7: wordServicePrayers, 8: confessionPrayers, 9: stationsOfTheCross, 10: funeralPrayers };
 const prayerTitles = [
   'Thungetna tuam tuam',
   'Tonu Maria tung thungetna',
@@ -18,7 +18,7 @@ const prayerTitles = [
   'Athu tawh Biakpiakna',
   'Mawhsut dan',
   'Singlamteh lam Zuih na',
-  'Missi tawh kisai',
+  'Misi tawh kisai thungetna',
 ];
 const sectionCounts = new Map();
 for (const { section } of hymns) {
@@ -346,7 +346,7 @@ function App() {
       </header>
 
       <main className="page" id="top">
-        <section className={`cover${galHiamOpen ? ' cover-gal-hiam' : ''}`} aria-labelledby="cover-title">
+        <section className={`cover${galHiamOpen ? ' cover-gal-hiam' : ''}${prayersOpen ? ' cover-thungetna' : ''}`} aria-labelledby="cover-title">
           <div className="cover-copy">
             {prayersOpen ? <h1 id="cover-title" lang="ctd">Thungetna</h1> : galHiamOpen
               ? <h1 id="cover-title" lang="ctd">Gal Hiam Phatna Labu</h1>
@@ -354,7 +354,7 @@ function App() {
           </div>
           {galHiamOpen
             ? <img className="collection-logo" src={galHiamCover} alt="" width="56" height="81" />
-            : <div className="cover-art" aria-hidden="true">
+            : !prayersOpen && <div className="cover-art" aria-hidden="true">
                 <div className="window-frame"><div className="window-image" /></div>
               </div>}
         </section>
@@ -405,19 +405,46 @@ function App() {
                         <details>
                           <summary className="hymn-open">{row}<ChevronDown size={18} aria-hidden="true" /></summary>
                           <div className="prayer-content">
-                            {prayersByNumber[number].map(({ title: prayerTitle, subtitle, text }) => (
-                              <section className="prayer" key={prayerTitle}>
-                                <h3>{prayerTitle}</h3>
-                                {subtitle && <h4>{subtitle}</h4>}
-                                {text.split('\n\n').map((paragraph, paragraphIndex) => (
-                                  <p key={paragraphIndex}>
-                                    {paragraph.split('\n').map((line, lineIndex) => (
-                                      <span className="prayer-line" key={lineIndex}>{line}</span>
-                                    ))}
-                                  </p>
-                                ))}
-                              </section>
-                            ))}
+                            {prayersByNumber[number].map(({ title: prayerTitle, subtitle, text, illustration }, index) => {
+                              const isStation = number === 9;
+                              const heading = isStation ? (
+                                <span className="station-heading">
+                                  <span>{index + 1}.</span>{' '}<span>{prayerTitle}</span>
+                                </span>
+                              ) : prayerTitle;
+                              const content = (
+                                <>
+                                  {subtitle && <h4>{subtitle}</h4>}
+                                  {text?.split('\n\n').map((paragraph, paragraphIndex) => (
+                                    <p key={paragraphIndex}>
+                                      {paragraph.split('\n').map((line, lineIndex) => (
+                                        <span className="prayer-line" key={lineIndex}>{line}</span>
+                                      ))}
+                                    </p>
+                                  ))}
+                                  {illustration && (
+                                    <img className="prayer-illustration" src={illustration.src} alt={illustration.alt} lang={illustration.lang} loading="lazy" />
+                                  )}
+                                </>
+                              );
+                              return (
+                                <section className="prayer" key={`${index}-${prayerTitle}`}>
+                                  {isStation && text ? (
+                                    <details>
+                                      <summary className="station-summary">
+                                        {heading}<ChevronDown size={16} aria-hidden="true" />
+                                      </summary>
+                                      {content}
+                                    </details>
+                                  ) : (
+                                    <>
+                                      <h3>{heading}</h3>
+                                      {content}
+                                    </>
+                                  )}
+                                </section>
+                              );
+                            })}
                           </div>
                         </details>
                       ) : <div className="hymn-open">{row}</div>}
