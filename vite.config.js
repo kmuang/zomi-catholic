@@ -4,10 +4,11 @@ import { defineConfig } from 'vite';
 
 const publicAssets = [
   'manifest.webmanifest',
-  'labu.svg',
-  'labu-180.png',
-  'labu-192.png',
-  'labu-512.png',
+  'church-steeple-32.png',
+  'church-steeple-16.png',
+  'church-logo-180.png',
+  'church-logo-192.png',
+  'church-logo-512.png',
   'stained-glass.jpg',
   'gal-hiam-book.png',
 ];
