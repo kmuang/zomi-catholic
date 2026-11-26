@@ -4618,6 +4618,39 @@ const lyricsByNumber = {
       },
     ],
   },
+  112: {
+    doh: 'G',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "Leitung mawhna tawh kidim te'n Tu in kisikkik ta ni; Zing nisuak bang Chirstu Topa'n, Mawhna khuamial hawikhia " +
+            'hi.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Ngai un tangkona aw hong ging, Hong Gumpa hong tung dekta; Khuamial gamtat paai khia un, Aw sun khuavak tate aw, ' +
+            'Khuamial gamtat paai khia un, Aw sun khuavak tate aw.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Leitung mawhna dan thuak ding in, Pasian' Tuuno hong kum hi; Mawhna khialhna kisikkik in, Dahna lian tawh thuum " +
+            'ciat ni.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'A vanglian I Pa Pasian tung, Tapa Pasian Jesu leh; Kha Siangtho Pasian To Thum tung, Minthan vangliatna om hen.',
+        ],
+      },
+    ],
+  },
   113: {
     doh: 'C',
     timing: '4:4',
@@ -10493,6 +10526,86 @@ const lyricsByNumber = {
       },
     ],
   },
+  271: {
+    doh: 'F',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'I bukna Suangpi Topa hi, Huihpi nun ciang a kidalna; A sia namkim aa ding bit hi, Huihpi nun ciang a kidalna.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Gimna gam sungah Jesu suangpi a hi, Belh ding Suangpi, Belh ding Suangpi; Gimna gam sungah Jesu suangpi a hi, ' +
+            'Huihpi nun ciang a kidalna.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Sun in nilim zanin kulhpi, Huihpi nun ciang a kidalna; Galte patauh ding hilo hi, Huihpi nun ciang a kidalna.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Huihpi'n I kimkot nuai hangin, Huihpi nun ciang a kidalna; Nusia lo ding cikmah hun in, Huihpi nun ciang a " +
+            'kidalna.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Pasian Suangpi belh ding ithuai, Huihpi nun ciang a kidalna; Tawntung hong nai, hong kem, hong huai, Huihpi nun ' +
+            'ciang a kidalna.',
+        ],
+      },
+    ],
+  },
+  272: {
+    doh: 'F',
+    timing: '6:8',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "Ka nun sung khualzin mikhat bangin, Mawhna khuamial sungah ka om hi; Tuu cing Jesu'n kei hong muh ciangin, hong " +
+            'samin kei hong ciahpih kik hi.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          "Ka lungdam hi hong itna ka theih ciangin, A tawntung a ma nung ke'n zui nuam ing; Ka lungdam hi, hong itna ka " +
+            'theih ciangin, A tawntung a ma nung zui nuam ing.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Ka laukha'n gimna a thuak ciangin, Topa in kei hong thahat sak hi; Nunna damtui kiang hong paipih in, Ka heina " +
+            'peuh ah kei hong kem hi.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Lauhuai guamthuk khuamialna gamah, Hong gum Topa'n kei hong ompih hi; A bawikholhsa vantung gamnuam ah, Kei hong " +
+            'len in hong tonpih ding hi.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          "CODA: Pasian' innpi sungah ka tun ciangin, Topa in kei aa ding in pawi lianpi hong khamsak ding! Ka lungdam hi, " +
+            'hong itna ka theih ciangin; A tawntung a ma nung zui nuam ing, A tawntung A ma nung zui nuam ing.',
+        ],
+      },
+    ],
+  },
   273: {
     doh: 'C',
     timing: '3:4',
@@ -10541,6 +10654,350 @@ const lyricsByNumber = {
       },
     ],
   },
+  274: {
+    doh: 'Eb',
+    timing: '6:8',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Hong hehpih hong damsak theipa, Jesu I kiangah om hi; A dahte hong lungdam sakpa, Jesu genna aw ngai ni.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Vantung mite langaih pen, Lei mite kam a khuum pen; La kisa teng pan ngaih pen, Jesu thupha Jesu.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Na mawhna a vekpi'n mai ta, Jesu genna aw ngai in; Lungmuangtak vantung zuan in la, Jesu tawh lukhu khu in.",
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "A hing kik Tuuno minthang hen, Tu in Jesu ka um hi; Thupha Honpa' min ka deih pen, Ka it pen Jesu min hi.",
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          "Khialhna launa teng abei sak, Topa Jesu' min bek hi; Ka zak ciang ka lung hong nuamsak, A manpha Jesu' min hi.",
+        ],
+      },
+      {
+        label: '5.',
+        lines: [
+          'Jesu maitang mu dingin ah, Vantung ah I leengto ding; A hong itna tokhom kiim ah, A phatna la I sa ding.',
+        ],
+      },
+    ],
+  },
+  275: {
+    doh: 'Ab',
+    timing: '6:8',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Jesu ah deihna teng cing khin, Hinna nuamna vannuai; Nisim in a ma thalo in, Ka puk ding a lauhuai; ka dah ciang ' +
+            'a ma kiang kapai, Mundang banglo ka mai a tai; Ka dah ciang hong nuamsak, hong phong, Kei ma lawm.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Jesu ah deihna teng cing khin, Lungkham laitak ka lawm; Thupha deih in ka zuat ciangin, Hong pia tampi kigawm, ' +
+            'Ni taang leh guahtui hong pia hi, Tuk ciangin an hong lasak hi; Ni taang guahtui leh an hong lui, Kei ma lawm.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Jesu ah deihna teng cing khin, A tung ka thuman ding; Kei tung a hong thuman ka Lawm, Bang ci'n ka nial zo ding; " +
+            'A mah zui leng ka khial ngei kei, Jesu in hong cingkhial ngei kei, Sun leh zan in zui ning a mah, Kei ma lawm.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          "Jesu ah deihna teng cing khin, Lawm pha zaw deih tuan keng, A mah tu in ke'n ka muang hi, Muang lai ning sih " +
+            'mateng; Hibang lawm tawh nuntak a nuam, Bei ngeilo ding hinna a nuam; Tawntung nunna tawntung nopna, Kei ma ' +
+            'lawm.',
+        ],
+      },
+    ],
+  },
+  276: {
+    doh: 'F',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "Jesu aw, ka zon lungnopna, Nang sung bek ah mu ing; Sawtpi ka zon tua lungnopna, Tu-in ke'n mu ta ing.",
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Tu-ni Jesu simloh in ah, Deihna dang omlo pi; (lopi) Itna, hinna, tawntung nopna, Topa kiang ka ngah hi.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Lungnopna ka zon laitak in, Nang kong mangngilh zel hi; Nang kong paisan dek laitak in, Na it na'n hong len in.",
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Dangtak a tuikuang zuan bangin, Lungnopna ka zon hang; Tuikuang kitam kiang zuan bangin, Maizum in guaksuak ' +
+            "ta'ng.",
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Nopna taan leng ka khi luangin, Nang hang in luang ngei kei; Hehpihna hang kamit vak in, Na hoihna ka mu thei.',
+        ],
+      },
+    ],
+  },
+  277: {
+    doh: 'Ab',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "Ki sawpsiang dingin Jesu kiang na pai hiam? Tuno' Si tawh hong kisawp zo hiam? A mah hong hehpihna thupha na " +
+            "muang hiam? Tuuno' Si tawh na kisawp zo hiam?",
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          "Tuuno' Si (Tuuno'Si) san sungah (sansungah) Nangmah hong kisil siang khinzo hiam? (khinzo hiam?) Na puansilh vuk " +
+            "bang a ngo nading in ah, Tuuno' Si tawh hong kisawp zo hiam?",
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Nisim in Topa tawh na kalsuan khawm hiam? Tuuno' Si tawh hong kisawp zo hiam? Thahna hong thuak ih Topa kiang na " +
+            "beel hiam? Tuuno' Si tawh na kisawp zo hiam?",
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Mopipa hong pai ciang na puan a siang diam? Tuuno' Si tawh a kisawp zo hiam? A bawl innpi nuam ah na lut thei " +
+            "nai hiam? Tuuno' Si tawh na kisawp zo hiam?",
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          "Mawhna khialhna a baang na puan suahkhia in, Tuuno' Si tawh ki silsiang sak in, A sianglo mite aa ding ciktui " +
+            "luang khin, Tuuno' Si tawh na kisawp zo hiam?",
+        ],
+      },
+    ],
+  },
+  278: {
+    doh: 'D',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "A mah'n hong kha, hih thu mahmah, Hehnepna dim thupha a hi; Kasepna kapaina tengah, Pasian' khut in kei hong kha " +
+            'hi.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          "A mah'n hong kha, A mah'n hong kha, A makhut tawh, A mah'n hong kha; A nung mantak kazui ding hi, A ma khut in " +
+            'kei hong kha hi.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Khatvei leh Eden bang nuamna, Khatvei leh khuamialna thukpi; Bang ka tuak zong muanna, launa, A makhut in kei ' +
+            'hong kha hi.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Phunlo puamlo, lungkimtak in, Topa na khut ka len nuam hi; Bangbang lungkham ka tuak zongin, Ka Pasian in kei ' +
+            'hong kha hi.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Na hehpihna tawh gal zo a, Nasep ka zawh ciang a vekpi; Sih ding laulo Pasian in ah, Jordan gungal ah hong kha ' +
+            'hi.',
+        ],
+      },
+    ],
+  },
+  279: {
+    doh: 'Bb',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "Na mawhna hong puaksak Jesu, A om na'ng mun nanei hiam? Lutnuam in kongkhak ah hong tu, Mawhnei aw na lutsak " +
+            'diam?',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          "Topa Jesu minthang Kumpi, A om na'ng mun tun bawl in, Na lungsim kongkhak taanzau in, Hong in na lutsak ding hi",
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Leitung hauhna nopna aa ding, Na lungsim sung awng napi; Nang tang hong si Jesu aa ding, Munkhat beek na awn kei ' +
+            'hi.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Jesu na khawlpih man ding hiam? Hong hehpih in hong hawh khin; "Tuni" hunhoih pen hilo hiam? "Zingsang" ci in ' +
+            'hal kei in.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          "Hun leh mun tu'n Jesu pia in, Hehpihna hun bei dek hi; Nangma Honpa sang peuh lecin, Na lung hong nuampah ding " +
+            'hi.',
+        ],
+      },
+    ],
+  },
+  280: {
+    doh: 'Bb',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "Lungmang mi aw, nang na laukei in, Nangma' Topa Pasian na muangta in; Bangbang na tuak zong a mah ko lecin, A " +
+            "mah'n hong huh ding hi.",
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'A mah in nang a hong huh theilai hi, A makhut in galliahna hi ding hi; A mah in nang a hong huh theilai hi, Tua ' +
+            'hi a laukei in.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Lungmang mi aw, gal a tam hangin, Galnanna leh thu upna lian sak in; Topa' vangliatna tawh na do lecin, Galzo " +
+            'bel na hi ding.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Lungmang mi aw, lam haksat ciangin, Amah'n hong honkhia ding na lau ciangin; Hong nai den hi, nasap pen laitak " +
+            'in, A ma minthang ta hen.',
+        ],
+      },
+    ],
+  },
+  281: {
+    doh: 'D',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "Ke'n ka za hi, vantung mite lasakna, Leitung teng leh tuipi tung zong thawn hi; Tua lasakna in thuman hong " +
+            'genkhia a, Mawhna bei in nuntakna thak thu hi.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Van mite aw sasa un, nong vilkawm un! Kahna zan bei nuamna khuavak mateng; Vantung langaih ko zong hong malep ' +
+            'dih un, Khuamial bei a, itna khuavak mateng.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Gamlapi ah nitak siklong ging bangin, Leitung tui tung Jesu' aw ging veh aw; Tul le then te mangthang hi, vangik " +
+            'lel in, Migi tuu cing aw na kiang zuan sak aw.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Khai leh pai ni a lasak uh ih zak lai, \"Lunggim mi aw, Jesu'n hong sam hi,\" ci; Khuamial sungah tua la aw kiza " +
+            'za lai, Tua lungdam la in van inn hong tun hi.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Sawtvei gim hang tawlngak hun hong tung dinga, Zanhun bei in khua hong vakpah ding hi; A gim mite tawldam hun hi ' +
+            'ta ding a, I lunggulh van innpi ih tung ding hi.',
+        ],
+      },
+    ],
+  },
+  282: {
+    doh: 'F',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "Calvary mual singlamteh tungah, Jesu nang tang ding hong si; A mawhbel mi na hi zongin ah, Thupha Jesu'n hong it " +
+            'hi.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          "Thupha Jesu'n nang hong it hi, A migi I lawmpa hi; A mawhbel mi na hi zongin ah, Thupha Jesu'n hong it hi.",
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Vangikpi in nang hong nen ciangin, Na cimawh kha mah ding hi; Christu'n hong thei hi cih phawklel in, Thupha " +
+            "Jesu'n hong it hi.",
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Hong pai in a ang muanhuai sungah, Hong hon hong maisak ding hi; Hong puakpih ding hi nangma dahna, Thupha ' +
+            "Jesu'n hong it hi.",
+        ],
+      },
+    ],
+  },
   283: {
     key: 'G',
     stanzas: [
@@ -10561,6 +11018,42 @@ const lyricsByNumber = {
       {
         label: 'Bridge',
         lines: ['Hallelujah Hallelujah Hallelujah Hallelujah'],
+      },
+    ],
+  },
+  284: {
+    doh: 'A',
+    timing: '3:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Jesu nang kong ngaihsut ciangin, Ka lungnuam mahmah hi; Hi sang na mai ka muh ciangin, Nuamzaw sem laiding hi.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Jesu a kici min sangin, Min ngaihzaw omlo pi; Leitung vantung a hi zongin, ki muzo ngeilo hi.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Lungsim tamkhamte lametna, Lungnemte' nuamna hi; A pukte tung na migi a, Hong zongte na huh hi.",
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          "Nang hong zongte' ngah lungnopna, Kam in gen zawh hilo; A lian mahmah Jesu itna, A itlo te'n theilo.",
+        ],
+      },
+      {
+        label: '5.',
+        lines: [
+          'Jesu nangmah bek ko nuamna, Ko neihpha pen na hi; Nangmah bek ko kisak theihna, Na nungta tawntung hi.',
+        ],
       },
     ],
   },
@@ -14657,6 +15150,1127 @@ const lyricsByNumber = {
         lines: [
           "A umlote liing ding a, lungkham dahna thuak ding hi, \"No aa ding mun om nawnkei\" ci'n hong gen ding; Hih thu " +
             'phawkin kisik in, I Topa lam zuan ve ni, Van mite bang a tawntung nopna ngah ding.',
+        ],
+      },
+    ],
+  },
+  397: {
+    doh: 'Bb',
+    timing: '6:8',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Jesu hong pai ding, nuamna lasa in, A si tawh a tatsate la ding in; Minthanna tawh a mite uk dingin, Jesu hong ' +
+            'paikik ding hi.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Jesu hong pai ding, hong paikik ding hi, Jesu hong paikik ding hi; Lungdamin awng ni, munteng thawnsak ni, Jesu ' +
+            'hong paikik ding hi.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Jesu hong pai ding, misite tho ding, Lawmngaihte tawh lungdam in kimu ding; Vantung a ma kiangah I kituah ding, ' +
+            'Jesu hong paikik ding hi.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Jesu hong pai ding, hong suakta sak ding, Leitung ah kilemna hong piang sak ding; Mawhna dahna khuisatnate bei ' +
+            'ding, Jesu hong paikik ding hi.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Jesu hong pai ding, a thuciam bangin, A teelsa mite hong lato dingin; Ngakin, vil in, kithawi sa in om in, Jesu ' +
+            'hong paikik ding hi.',
+        ],
+      },
+    ],
+  },
+  398: {
+    doh: 'F',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "Topa'n hong khawm ding minam cin nikhat ni ciang, Misia leh mipha khen nih in hong khen ding hi; Kimkhat te'n " +
+            "Topa'n \"Nang na pha hi\" a cih ciang, Kei ka om kha diam? Aw, tua mihonte lak ah.",
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          "Mi siangte'n lungdam lasak laitak, Khitui luang a, a kap tam ding hi; Nopna ngah mite'n hinna tui a dawn laitak, " +
+            'Tuiduh dangtak a, A thuum tampi om ding hi.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Ka hun a bei ciang kei zong ka pai ding van ah, Leitung ka nun sung kasep thaman ka sang ding; Kimkhat te'n " +
+            'nuntakna lukhu hong khuk ciangin, Kei ka om kha diam? Aw, tua mihonte lak ah.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Hong tung ding hi, tua Topa hun, ni khat ni ciang, Tua thukhenna tawh kuamah kipelh theilo ding; Kimkhat te'n " +
+            'sihna meikuang lam a zuat ciangin, Kei ka om kha diam? Aw, tua mihonte lak ah.',
+        ],
+      },
+    ],
+  },
+  399: {
+    doh: 'E',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "I meivak a baihsa'n om diam? Mopi hong pai ciang; I meivakte a taangpha diam? Mopi hong pai ciang; Tua zan ciang " +
+            'zan gamdaih ciang, I meivakte a taangpha diam? Mopi hong pai ciang.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Kithawi khol ni, Kithawi khol ni; Kithawi khol ni, Mopi hong pai ding.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Hong muakna aw I za ding hiam? Mopi hong pai ciang; Lungdamna tawh I dawng na diam? Mopi hong pai ciang; Tua zan ' +
+            'ciang zan gamdaih ciang, I meivakte a taangpha diam? Mopi hong pai ciang.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Kikhenna a om kei na diam? Mopi hong pai ciang; I zekai lua kha kei na diam? Mopi hong pai ciang; Tua zan ciang ' +
+            'zan gamdaih ciang, I meivakte a taangpha diam? Mopi hong pai ciang.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Dah hun a hi kha kei na diam? Mopi hong pai ciang; Meitui sap hun a hi kha diam? Mopi hong pai ciang; Tua zan ' +
+            'ciang zan gamdaih ciang, I meivakte a taangpha diam? Mopi hong pai ciang.',
+        ],
+      },
+      {
+        label: '5.',
+        lines: [
+          'Kimuhna nuam hita ding hi, Mopi hong pai ciang; Alleluia I ci ding hi, Mopi hong pai ciang; Tua zan ciang zan ' +
+            'gamdaih ciang, I meivakte a taangpha diam? Mopi hong pai ciang.',
+        ],
+      },
+    ],
+  },
+  400: {
+    doh: 'G',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Sawtlo in Topa hong pai ding, Kithawisa in om in; Van inn nuam pan in hong pai ding, Kithawisa in om in; Eite ' +
+            'hong diksak Topa hi, A teelte thupha pia ding hi; A Pa mai ah hong lak ding hi, Kithawisa in om in.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Mopipa hong pai ding na kithawi hiam? Mopipa hong pai ding na kithawi hiam? Zingsang sun leh zan hi zong; Na ' +
+            'meivakte taangsak in, Mopipa hong pai ding na kithawi hiam?',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Amah hong pai kik baih ding hi, Kithawisa in om in; Lei leh van hong ukta ding hi, Kithawisa in om in; Alleluia ' +
+            "ci'n kiko ding, Jesu in hong tankhia ta ding; Na meivak in Kumpi dawn ding, kithawisa in om in.",
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Hong pai hi nang leh kei aa ding, Kithawisa in om in; A sawtlo in peengkul za ding, Kithawisa in om in; Gam teng ' +
+            'leh mun teng pan in ah, Ei hong sam ding thukhenna ah; Ding ciat ding thukhenna mai ah, Kithawisa in om in.',
+        ],
+      },
+    ],
+  },
+  401: {
+    doh: 'G',
+    timing: '9:8',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Ngak ngiungeu ing, lungkia lo in, Meiilum kaii te a then dong; Ngak ngiungeu ing lungkia lo in, Sun nitaang lai ' +
+            'a liap dong; Nikhat a bang khang khat hun pan, Lungkham khuamial ven mateng; Nunna khuavak taang kiukiau in, Van ' +
+            'aksite suah mateng.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Anlate in ansang khawm in, Sung khum khit dong kangak hi; Khuakhal bei in hun kikhel ta, Phalbi huihdam nungta ' +
+            'hi; Anlate aw, khawm mengmeng un, Ka nuntak hun cing khinta; Nuntakna paak palh vul khin zo, Ka nuntak hun ' +
+            'beibei ta.',
+        ],
+      },
+    ],
+  },
+  402: {
+    doh: 'Bb',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "Topa Jesu'n nuamna hong pia dingin, Sunkim zankim hong pai leh; Lungsim dik in meivak a baihsa in, I ngak laitak " +
+            'hong tuak diam?',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          "Ute naute I kiging ciat zo hiam? I kha inn nuam lut nading; Nangmah leh kei kiging sa'n hong mu diam? Ngak in, " +
+            'Topa hong pai ding ngak in.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Zingsang khatpeuh phalvak tung pan laitak, Khat khat in hong sam pak leh; Hong kepsak talen I piak kik laitak, ' +
+            '"Pha hi," nang hong ci na diam?',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Hong vaikhakna bangin I hih zawh leh, I siamna zah sit kei le'ng; I lungsim kisuanna a om kei leh, Nopna pha I " +
+            'ngah ding hi.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'A ngak zote in thupha ngah ding hi, Vantung khua ah mangkhawm ding; Sunkim zankim a hong pai kha ding hi, I ngak ' +
+            'laitak hong tuak diam?',
+        ],
+      },
+    ],
+  },
+  403: {
+    doh: 'G',
+    timing: '6:8',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'A Kilawm kongpi te hong ki hon ciang-in, Khua mial ah ki om nawn lo ding, A kilawm kongpi te hong ki hon ciang ' +
+            'in, Pasian khuapi taang sung om ding',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'A kilawm kongpi ki hon ciang, A ki lawm kongpi ki hon ciang(hon ciang), Topa mu in i lung a dam mahmah ding, A ' +
+            'kilawm kongpi ki hon ciang',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'A kilawm kongpi te hong ki hon ciang in, It leh ngaih ten kei hong dawn ding, A kilawm kongpi te hong ki hon ' +
+            'ciang in, Kawk baang lo in inn pi tung ding',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'A kilawm kongpi te hong ki hon ciang in, Nat na sat na dah na bei ding, A kilawm kongpi te hong ki hon ciang in, ' +
+            'Lawm gual ngaih te tawh nuam sa ding',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'A kilawm kongpi te hong ki hon ciang in, Gen zawh loh nop na ka ngah ding, A kilawm kongpi te hong ki hon ciang ' +
+            "in, A siang tho Pasian ke'n mu ding",
+        ],
+      },
+      {
+        label: '5.',
+        lines: [
+          'A kilawm kongpi te hong ki hon ciang in, Min than na in ei hong tuam ding, A kilawm kongpi te hong ki hon ciang ' +
+            'in, Gun gei ah nop la i sa den ding',
+        ],
+      },
+      {
+        label: '6.',
+        lines: [
+          "A kilawm kongpi te hong ki hon ciang in, Dah na'n hong …",
+        ],
+      },
+    ],
+  },
+  404: {
+    doh: 'E',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Ka vantung inn a nuam bel hi, Gimna sih na om nawn lo hi, Ni tang tawn tung tua van tung inn, A tawn tung in ka ' +
+            "om nan'g hi, Ni tang tawn tung tua Vantung inn, A tawntung in ka om nan'g hi",
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Ka Pa inn pi ka tun hun ciang, Aksi khengin ka leng to ding, Hih lei tung pan ka suahtak ciang, Vantung inn ah ' +
+            'ka om den ding, Hih lei tung pan ka suah tak cinag, Vantung inn ah ka om den ding',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Mi dang te a teen na ding mun, Mei kuang den a mit ngei lo hi, Kei ka hih leh a nop na mun, Pasian kiangah ka om ' +
+            'ding hi, Kei ka hih leh a nop na mun Pasian kiang ha ka om ding hi',
+        ],
+      },
+    ],
+  },
+  405: {
+    doh: 'Eb',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'A ang sung gal muanna sung hong khawlsak ciang in, Lei tung buai na lung kham dahna thuak lo ding, Ni bang a ' +
+            "taang puanpak hong kisilhsak hun ciang in, Hong it hong Tanpa'n hong kem den ding",
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Hong tawlnga sak(in) hong tawlnga (hong tawlnga) sak (in), Ze et na le lungkham na om loh na gam ah, Hong ' +
+            'tawlnga (hongtawlnga) sak(in) Hong tawlnga (hong tawlnga) sak (in), A ang sung gal muanna sungah hong khawlsak ' +
+            'ding',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'A ang sung gal muanna sung hong khawlsak ciang in, A taang mahmah vangliat na khat ka mu ding, Ni bang a taang ' +
+            'puanpak hong kisilhsak hun ciang in, Gen zawh loh lungdamna ka ngah ding',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'A ang sung gal muanna sung hong khawlsak ciang in, A tul ngei lo a siang tho it na nei ning, Hong honpa tawntung ' +
+            'nopna mun ka tun ciangin, Bangmah ka lung gulh ngei nawn kei ding',
+        ],
+      },
+    ],
+  },
+  406: {
+    doh: 'G',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "Kei a pai ding (Kei ka pai ding) To pa'n hong sam, (Topa'n hong sam), Nang na pai diam? To pa'n hong sam, Nang " +
+            "leh kei Topa'n hong sam a, Kei ka pai ding van inn nuam ah",
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          "Topa'n (Topa'n) hong sam khin zo, Hong it na si san hong luang zo, Hong sam (Hong sam) a ang sung ah, Kei ka pai " +
+            'ding van inn nuam ah',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Aw ka lawm it (Aw ka lawm it) kawh om na hiam? (Kawh om na hiam?) To pan hong sam za lo na hiam? To pan hong it ' +
+            'in hong sam hi, Aw, ka lawm it, hong sam den hi',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Thu man lam pi (Thu man lam pi) na zui nai hiam? (Na zui nai hiam?) Hong pai meng in lau lo na hiam? Thuman lam ' +
+            'pi hong zui in ci, Lam na pial leh na puk ding hi',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Na kong khak hong (Na kong khak hong) kiu khat om hi (Kiu khat om hi) Na kong khak hong kiu khat om hi, Kong ' +
+            'hong kiu Jesus hi lo maw, Na kong khak tun hong lo ding maw',
+        ],
+      },
+    ],
+  },
+  407: {
+    doh: 'Ab',
+    timing: '3:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "Topa hauhna ngaih sun ke'ng, Kham leh ngun lung gulh keng, Vantung gam cian ma-sa ning, Tuu huang sung lut nuam " +
+            'ing, Vantung gam lai pi sung ah, Na ciam teh na sungah, A ki gelh hiam kei ma min? Jesus aw hong gen in',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Gam ciam teh na sung ah, Nun tak na lai sungah, Vantung ka tun theih nang in, A ki gelh hiam ka min?',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Gunpi gei a seh-nel zah, Ka mawhna tam mahmah, Topa nong tat na si in, Kei aa ding ki cing khin, Na thu ciam teh ' +
+            "na lai pi, Mual thei lo taang den hi, Na mawh na si bang san hang, Paaksak ding hin'g Vuukbang",
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "A siangtho tua khuapi sung, A taangpha inn pi sung, Vangliat na ngah a mi te'n, A puansilh uh a tee, Tua a " +
+            'pha-te sia sak ding, Bang mah tum thei lo ding, Van tung mi te cin na ah, Ka om ding hi kei mah',
+        ],
+      },
+    ],
+  },
+  408: {
+    doh: 'Bb',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Ni taanna gam nuam khat om a, Van a siang tawn tung hi, Khua amial ngei loh na hi a, A khua vak honpa hi',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Singlamteh ... i puak nak leh, Kham lukhu ... i khu ding, Misiangte... kiang i tunteh... A tawntung in khuavak ' +
+            'ding',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'A nuam mahmah gam khat om a, Gimna gunpi gal hi, Huih pi nun nawn loh na hi a, I deih pen om na hi',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'A nuam mahmah inn khat om a, Vantung innpi nuam hi, It leh ngaih teng om na hi a, Ei hong dawn ding uh hi',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Siat lam ma nawh hih lei tung hun, Nusia meng meng nuam hang, Nop na bei ngei nawn loh na mun, Vangam tung nuam ' +
+            'ta hang',
+        ],
+      },
+    ],
+  },
+  409: {
+    doh: 'Bb',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "Ni simka nun tak na Jesus tawh ki nai semsem veng, Ngun leh Kham sang' sang zaw, taang zaw, a hoih na gen zo " +
+            "ken'g, Ka lungsim mitkha in a ma hoih na teng ka mu hi, Ni sim hun sim khangto Jesus it na khuum semsem hi",
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Kim khat... beek ki gen zo kei, Tua gal...... khat khamkhua thu, Jesus...... hong it na khuum zaw tham... lai ' +
+            'ding hi, tua mun ah...',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'A gamla pek pan ka mu hi, a vangliat na hong taang, U Nokpak sang hoih zaw tham lai, Zingsol bangin hong taang, ' +
+            'Ka lunggulh na te hong pia in, kei hong lung kim sak hi, Nisim hunsim khangto Jesus it na khum semsem hi',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Lungkhamna ka thuak zel zel hang, a mah'n hong suak ta sak, A ang sung hong pom hong dal in, ka lungkham na bei " +
+            'sak, Kei tang A pum pin hong thuak na hang Christu ka it hi, Nisim hunsim khangto Jesus it na khum semsem hi',
+        ],
+      },
+    ],
+  },
+  410: {
+    doh: 'F',
+    timing: '3:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Christian ki it na in, Lung sim hong hen khawm hi, Lung ki tuak a ki kholh na in, Vantung it na lim hi',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "I Pa' tokhom mai ah, Nak pi'n thu i ngen hi, Dah na nop na vai khem peuh ah, Ei te'n i ko khawm hi",
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Dah na thuak khawm ciat in, Van i ki puak pih hi, Khat leh khat i ki khual na in, Khi-tui a lung thei hi',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Eite i ki khen ciang in, Lung sim dah na piang hi, Hih hang lung sim ki khen lo in, I ki mu kik ding hi',
+        ],
+      },
+    ],
+  },
+  411: {
+    doh: 'E',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'A nuam gam minthang khat om ci-in ka za, Tuamun ah dah na om lo hi, Sih theih na huihte cik mah hun nung lo a, ' +
+            '(tuamun) Ka teen na ding gam hi',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'A min thang Paradise gam min than na munah, (tawntung) Nop sakna munah (Etlawm) A hoih paak namkimte paakin, ' +
+            "(vantung mite'n) Lungdam pengkul mut (Lung dam) lasa tawn tung hi, (Aw, a) Minthang Paradise gam (Paradise gam)",
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Tek hun om ngei lo in nuamsa tawntung ding, A it huai gam siangtho mun hi, Gil kial na leh ci nat na om ngei lo ' +
+            'ding, (tua mun) Ka teen na ding gam hi',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Tua ka kha inn nuam sung dah na om lo ding, Si ngei lo nung ta den ding hi, Tua mun tung te peuh mah min thang ' +
+            'tawn tung ding, (tua mun) Ka teen na ding gam hi',
+        ],
+      },
+    ],
+  },
+  412: {
+    doh: 'F',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Inn lam zuan kawmin hong hat sak ding lasa ni, A sawtlo inn ah i ciah ta ding, Tawntung nun-tak na mun ah zan ' +
+            'hun bei ding hi, A sawt lo inn ah i ciah ta ding',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'A sawt lo inn ah... a sawt lo inn ah... Tuipi hual i kantan ding, Eite ki mu ding huih pi a daih ciang inn ah, A ' +
+            'sawt lo inn ah i ciah ta ding',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Khut a sep ding i muh peuh i sem ciat ding hi, A sawt lo inn ah i ciah ta ding, Pasian heh pih na in ni sim hong ' +
+            'hatsak hi, A sawt lo inn ah i ciah ta ding',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'A gim a tawl te aa ding lampi puahpha ni, A sawt lo inn ah i ciah ta ding It na lung sim in kiim leh paam nuam ' +
+            'sak ding hi, A sawt lo inn ah i ciah ta ding',
+        ],
+      },
+      {
+        label: '5.',
+        lines: [
+          'Lung kham bei na gal khat ah, tawl dam na om hi, A sawt lo inn ah i ciah ta ding, Tua khuapi nuam ah khitui ' +
+            'luanna om lo hi, A sawt lo inn ah i ciah ta ding',
+        ],
+      },
+    ],
+  },
+  413: {
+    doh: 'Db',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Nang mah tawh Pasian om khawm ta hen, A hong pi a hong len ding in, A tuu tawh hong kem khawm ding in, Nang mah ' +
+            'tawh Pasian om khawm ta hen',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'I ki-muh (I ki muh) kik ma teng (mateng), Jesus kiang ki muh ma-teng (muh mateng), I ki muh (I ki muh) kik ma ' +
+            'teng (mateng) Nang mah tawh Pasian om khawm ta hen',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Nang mah tawh Pasian om khawm ta hen, A kha nuai hong liah hong dal in, Ni sim *Ma-na* hong vak ding in, Nang ' +
+            'mah tawh Pasian om khawm ta hen',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Nang mah tawh Pasian om khawm ta hen, Lau na'n hong lung am sak ciang in, Ang sung hong pom bik bek ding in, " +
+            'Nang mah tawh Pasian om khawm ta hen',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Nang mah tawh Pasian om khawm ta hen, It na nuai ah hong cing ding in, Sih na tui hual sat paai ding in, Nang ' +
+            'mah tawh Pasian om khawm ta hen',
+        ],
+      },
+    ],
+  },
+  414: {
+    doh: 'Eb',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'I si ding hi, i si ding hi, Hih lei tung i nusia ta ding, Hong gensa sih ding thu om hi, A kua mah peuh peel lo ' +
+            'si ding,',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'I sih ciang in, i sih ciang in, Na khempeuh a bei khin ding hi, Mi khem peuh tung Pasian in, Gam tat na bang thu ' +
+            'khen ding hi',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Zozam paak a vul theih bang in, A sawt lo in mi zong si ding, Theih loh kal in hih sih na in, Gu ta bang in ah ' +
+            'hong tung ding',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Misi khat peuh i gal ciang in, Ki sak theih na lung sim bei hi, Nop sak luat na te khem peuh in, A vek pi in a ' +
+            'mawk na hi',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          "Nute Pate lawm leh gual te'n, I sih ciang in hong nu sia ding, Gam tat hoih leh hoih lo bek in, Pasian mai ah ei " +
+            'hong zui ding',
+        ],
+      },
+      {
+        label: '5.',
+        lines: [
+          'Aw ki pha sak ei mawh nei mi, I meel hoihna teng bei ding hi, I lim i meel leh i pum pi, Hin na bei in i si ding ' +
+            'hi',
+        ],
+      },
+      {
+        label: '6.',
+        lines: [
+          'Tu-ni mahmah i si zong in, I gen ding thu lung ngai khol ni, Mi khem peuh si hi leh tu in, Nop sak na ngah kim ' +
+            'lo ding hi',
+        ],
+      },
+    ],
+  },
+  415: {
+    doh: 'Ab',
+    expression: 'Moderato',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Topa pengkul hong ki tum a, lei tung hongbei ciangin ah, A mial ngei nawn lo ding khua hong vak ding hi, Tat sa ' +
+            'mi te gun gal khat ah hong ki khop hun ciang in ah, Min hong sap lai tak kei zong ka om ding hi',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Vantung ah (Vantung ah) min hong sap lai (hong sap lai) tak, Vantung ah (Vantung ah) min hong sap lai (hong sap ' +
+            'lai) tak, Vantung ah (Vantung ah) min hong sap lai ... tak, Min hong sap lai tak kei zong ka om ding hi',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Tua ni zing sang ciang in, Christu sung a si te tho ding a, A mah bang in ei zong i tho kik ding hi, A ma teel ' +
+            'sa mi te Van inn zuan in hong ki khawm ding a, Min hong sap lai tak kei zong ka om ding hi',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Topa' na i sem ding hi, zing sang pan ni a tum dong in, Hong it na lam dang leh hong kep na gen ni, Lei tung na " +
+            'sep ding teng zo in, nun tak hun a bei ciang in, Min hong sap lai tak kei zong ka om ding hi',
+        ],
+      },
+    ],
+  },
+  416: {
+    doh: 'B',
+    timing: '3:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Ho lung tuak tawh gi bang khen ding, Hun leh ni hong nai ee, Nang lah zua siang ma nawh ta ding, Nung siat lung ' +
+            'zuang ung ee',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Khau bang ciah na sau siang nuam ah, Sian in lum bang sung ding, Vang khua nun nuam Sian lim liap ah, Lung muan ' +
+            'dam tui dawn ding',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Ho lung tuak in sausiang nuam ah, Lau Khasiangtho te tawh, Nun nuam paak bang tawi khawm ding a, Lun-mang von ' +
+            'tawi no tawh',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Dam tak in gi bang khen ta ding, I ki mu kik ding a, Sianmang in nau bang hong kem ding, Dam tak in aw mangpha',
+        ],
+      },
+    ],
+  },
+  417: {
+    doh: 'Eb',
+    timing: '6:8',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Pasian in a ma ta te hong ma kaih a, Lo no na ah hong ta sak hi, Guam thuk sung khua mial ah i pai hang in ah, A ' +
+            'ta-te hong ma kaih den hi',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Mi pawl khat tui leh mei hang nung ta, Eite si san hang i nung ta hi, Pasian in la in ei hong heh nem ta, Sun ' +
+            'leh zan in tua la pha sa sa ni',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Pasian in a ma ta te hong ma kaih a, Ni sim in Ni bang hong taang hi, A lau huai zan khuamial pi sung na ngawn ' +
+            'ah, A ta-te hong ma kaih den hi',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Pasian in a ma ta te hong ma kaih a, Ze-et na te hong zo sak hi, Hong heh pih man in gal te i zo khin ta, A ' +
+            'ta-te hong ma kaih den hi',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Pasian in a ma ta te hong ma kaih a, Ei te i siang tho den ding hi, Ni tawp ni dong a mah phat thei ding in ah, ' +
+            'A ta-te hong ma kaih den hi',
+        ],
+      },
+    ],
+  },
+  418: {
+    doh: 'Bb',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Van tung inn nuam ah i ki khawm ding a, Limlang tui pi gei ah i ding hi, Hong ngak i lawm te tawh ki mu ding a, ' +
+            'Ki khop na nuam mahmah hi ding hi',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Kikhawm ding ... innpi ah, ... Tua a nuam limlang tui pi gei ah, Lawmte hong ... ngak na ah, ... Nuam in Topa ' +
+            'min i phat ding hi',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Van tung inn nuam ah i ki khawm ding a, Dah na lung kham na te bei ding hi, Tat sa te tawh la i sa khawm ding a, ' +
+            'Ki khop na nuam mahmah hi ding hi',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Van tung inn nuam ah i ki khawm ding a, Hong tan Topa mai i mu ding hi, It leh ngaih lawm te tawh ki thei ding ' +
+            'a, Ki khop na nuam mahmah hi ding hi',
+        ],
+      },
+    ],
+  },
+  419: {
+    doh: 'G',
+    timing: '6:8',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Jesus si tawh ki sawp peuh mah, Ki mu baih ding gun-gal khat ah, Nat na bei in ki khawl khawm ding, Ki khen cih ' +
+            'zong om nawn lo ding, Sih-na Gun-gal khat ah',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Sih na... gun gal khat ah, Sih na... gun gal khat ah, Sih na... gun-gal khat ah, Ki khen ngei nawn lo ding, Ki ' +
+            'khen... ngei nawn lo ding, Ki khen... ngei nawn lo ding, Ki khen... ngei nawn lo ding, Sih na gun gal khat ah',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Bang bang tuah hang lau nawn kei ning, Up-na tawh ka van inn mu ing, Van tung mi'n hon gen ka za hi, Khi tui " +
+            "teng Topa'n nul ding ci, Sih-na Gun-gal khat ah",
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'It leh ngaih tawh ki muh na nuam, Bang aw i za diam i thei nuam, Kham kong pi hon ding ngak lah tang, Lung sim ' +
+            'lawp in tung nuam lua tang, Sih-na Gun-gal khat ah',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Nuamna ki cing ngah theih nang in, Hong Honpa aw, kei hong kha in, Khi tui a nul it na phat ning, A deih bang in ' +
+            'nung ta den ning, Sih-na Gun-gal khat ah',
+        ],
+      },
+    ],
+  },
+  420: {
+    doh: 'B',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Aw a gamnuam E-den, mi siangtho te om na, Tua mun ah i lawm i gualte tul tampi om zo hi, Gimna tawlna, lungkham ' +
+            'dahna, Om nawn lohna tua gam nuam hi.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Nakiang kong pai ding hi, ka Topa Jesus aw, Nang hong lam en a ma kha in tu'n a hong pai ding hi, Na dawn in " +
+            'Topa Jesus aw, Na gam nuam sung hong tung ding hi.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Lei ah bangzah dah in a ki kap zong in ah, na pai na ding hun hong tung ta, tu'n i ki khen ding hi, Ki khel thei " +
+            'lo sih na in ah, Tu in nang tung hong tung ta hi.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Vantung gam nuam sung ah, tu in na pai ding a, A ni a kha a hun te om loh na gam nuampi hi, Lungzuan khua ' +
+            "ngaihna om lo a, Vanmi siangte'n hong dawn ding hi.",
+        ],
+      },
+    ],
+  },
+  421: {
+    doh: 'G',
+    timing: '6:8',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Topa it teng pai ni, Lang sak ni i nuam na, Ki tuak tak in la sa khawm ni, Ki tuak tak in lasa khawm ni, Topa to ' +
+            "khom kiim ah, Topa' to khom kiim ah",
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Zi-on... khua i pai hi, A ki lawm khua pha pi Zi-on, I tun ma teng kah to to ni, Ki lawm Pasian khuapi Zi-on',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Ei Pasian thei lo te'n, Phat nuam ta kei leh uh, Ei Van tung Kumpi pa' ta te'n, Ei Vantung Kumpi pa' ta te'n, " +
+            'Thang sak un nuam na thu, Thang sak un nuam na thu',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Vantung gam sung tum ma, Kham khua sung sik ma in, Hong ma lep hi siangtho nuam na, Hong ma lep hi siangtho nuam ' +
+            'na, Zi-on mual kah lai in, Zi-on mual kah lai in',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Tua hi a lasa un, Nul un dah na khi tui, Vantung gam ah a nop na mun, Vantung gam ah a nop na mun, Tun na ding ' +
+            'lam i zui, Tunna ding lam i zui',
+        ],
+      },
+    ],
+  },
+  422: {
+    doh: 'A',
+    timing: '3:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Vantung ka ngaihsun hi, Topa Pasian omna; A kham maitang ka mu ding hi, Nop kicing man ngahna.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Dahna kipelhna mun, Dahna kipelhna mun, Itna kicing vantung khamgam, Dahna kipelhna mun.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Vantung ka ngaihsun hi, Hong teel Topa omna; Hong itna la kasa ding hi, Phat tawntung ning amah.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Vantung ka ngaihsun hi, Vantung mite omna; Puanpak silh in a om uh hi, I omna ding hita.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Vantung ka ngaihsun hi, A tungsa I lawmte; Mu a, kikhen nawnlo ding hi, Nuam tawntung ding hiveh.',
+        ],
+      },
+    ],
+  },
+  423: {
+    doh: 'C',
+    timing: '3:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Ih mu leng khangma cip lo in, Minthanna khua hong vak ding, Hin kik ni ciang ki mu kik in, I kikhen kik nawn kei ' +
+            'ding, Tuipi thuk leh kuamthuk sung pan, Mi nam kim hong khawm ding hi, Zang gam leh mual sang dawnte pan, Mi ' +
+            'tampi hong tho ding hi',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Ih mu leng khangma cip lo in, Minthanna khua hong vak ding, Hin kik ni ciang ki mu kik in, I ki khen kik nawn ' +
+            'kei ding',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'A hoih mahmah paak i muh ciang, I lim kep pha mahmah hi, Angsung pan hong ki suh khiatciang, I lungsim na mahmah ' +
+            'hi, Ni a tum suk dong lung gim in, Han kim ah i kun kun a, Paak i taan ciang dah mahmah in, Lam et na a bei ki ' +
+            'sa',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Ih mu le'ng khangma cip lo in, Han sungah lum cip lo ding, Hong phong khia kik ding Topa in, A mah minthang tawn " +
+            'tung ding, A taang tawn tung khuapi sungah, Sih na om thei ngei lo hi, Tawl damna innpi nuam sungah, A hun ciang ' +
+            'hong sam ding hi',
+        ],
+      },
+    ],
+  },
+  424: {
+    doh: 'Ab',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Mi siangtho te tot sa lampi nuam ah, Kumpi pa in hong ma kaih hi, Vantung innpi zuan in i pai na ah, Zing sol i ' +
+            'tung ah hong taang hi',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Inn pha bel lam zuan i ciah a, Nun tak na lu khu i khu ding hi, Tua inn tun ciang nuam mahmah ding a, Dah na om ' +
+            'lo ding hi',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Tat sa mi te bang in lam nuam tawn in, Zion khua ah i ciah kik hi, Kumpi pa hong sawl na bang in ciah in, I mei ' +
+            'vak te i taang sak hi',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Up na kip tak in lampi nuam zui in, Khut ki len in i ton khawm hi, Nuam mahmah ding Kumpipa muh ciang in, A mah ' +
+            'tawh i mang khawm ding hi',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Jor dan gun ngap ding in i ki thawi a, Gal kah ding i lung khing ciat hi, Hih hang Pasian tawh i ngap khawm ding ' +
+            'a, A min i phat tawn tung ding hi',
+        ],
+      },
+    ],
+  },
+  425: {
+    doh: 'Ab',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Kumpi pa mai i ding ding, Vantung mi tawh la sa ding, Nung ciang in, ... nung ciang in, A taang gun gei lam zui ' +
+            'ding, Topa min phat tawn tung ding, Nung ciang in.... nung ciang in....',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Kum pi pa... mai i ding ding... Vantung mi tawh la-sa ding, Kumpi pa a min phat ding, Al-le-lui (Al-le-lui) a, ' +
+            'Al-le-lui-a ... Kumpi pa... mai i ding ding...',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Vantung khua siklong tum ding, Kumpi pa mai i ding ding, Nung ciang in... nung ciang in... Dah na khempeuh bei ' +
+            'ta ding, Phat na la i sa sa ding, Nung ciang in... nung ciang in...',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Pah tawi na ken ka puak ding, Kumpi pa mai ka ding ding, Nung ciang in... nung ciang in... Zawh na a ke ah nga ' +
+            'ning, A mah sun in ki cing ding, Nung ciang in... nung ciang in...',
+        ],
+      },
+    ],
+  },
+  426: {
+    doh: 'F',
+    timing: '4:4',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Gim-na sungpan lam et gam nuam, Cik ciang ka tung ding hiam? Cik ciang gal van suah khiat hun nuam, Lai lung ' +
+            'muan hun om diam?',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          "Je-sus (Jesus) hong tun dong in Ei te'n (Eite'n) na i sem ding, Je-sus (Jesus) hong tun ciang in Inn nuam sung " +
+            'om khawm ding',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Sim lei tung lai lung dam om lo, Lum bang sung om lo hi, Sim lei tung sau nuam a hi lo, Gam bang daih na a hi',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Lim belh Jesus siang tun ma teng, Lam bang na pial ke'n ci, Leng van siang nuam ka tun ma teng, Ham bang hong " +
+            'huai ding hi',
         ],
       },
     ],
@@ -18829,7 +20443,6 @@ const galHiamTitles = [
   [345, 'Tapidaw mangpha'],
   [346, "Ka om na'ng khua a hi"],
   [347, 'Aw gam nuampi'],
-  [348, 'ချီးမြှောက်မည်'],
 ];
 
 const galHiamLyricsByNumber = {
@@ -30306,6 +31919,1003 @@ const galHiamLyricsByNumber = {
         lines: [
           'Ka kiangah hong om in Topa, Lungkhamna huih dai sakin, Lungdamna piang sakin, dahna, Khuamial nitaang bang ' +
             'sakin.',
+        ],
+      },
+    ],
+  },
+  221: {
+    key: 'G',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Topa aw, kong muang hi, Nang mah bek kong muang hi, Hih leitung nuntakna, lungmuan om thei lopi, Uptheih ' +
+            'muantheih dingin, lungsim hemlam tam si, Hih leitung ka nun sung, Topa bek kong muang hi.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Kei hong sungin, kei hong liah in, ka Honpa aw, Ka suangpi aw, bittak in na khaliim hong seel aw, Lungmuanna ' +
+            'huang sungah, Tawldamna liim sungah, Hong Lenin hong kha in, Na-ang sungah lungmuang takin, Hong khawlsak aw.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Mite muan ding sangin, Topa muan hoih zaw hi, A muang mite lampi, Topa'n hu-in keem hi. Hong paisan ngeilo hi, " +
+            'hong nusia ngeilo hi, Hih leitung ka nun sung, Topa bek kong muang hi.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Hong theikhial ngeilo hi, hong telkhial ngeilo hi, Amah muanna sungah, dohna khempeuh veng hi, Hong enkhial ' +
+            'ngeilo hi, hong hokhial ngeilo hi, Hih leitung ka nun sung, Topa bek kong muang hi.',
+        ],
+      },
+    ],
+  },
+  231: {
+    key: 'G',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "Lungnop suahtakna Ka Topa'n hong pia, Ka sung pan in Nuntakna ciktui Hong luangkhia, Lungnop suahtakna Ka " +
+            "Topa'n hong pia,",
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          '(Nuntakna laibu sung ka min kigelh zo)3, Halleluijah',
+        ],
+      },
+    ],
+  },
+  232: {
+    key: 'C',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Halleluijah! Zeisu nungta hi, Sihna in zong len zo la, Hankhuk zong kinusia ta, Zeisu a tawntung in nungta hi, ' +
+            'nungta hi.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Amah Alpha le Omega, A patna le a tawpna mawhna hamsiatna bei khin, Suahtakna i ngah khin zo, Pasian' Tuunno " +
+            'thokik zo! Nungta hi, nung ta hi. Hallelujah, Zeisu nungta hi.',
+        ],
+      },
+    ],
+  },
+  233: {
+    key: 'G',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Ahoih Topa a lamdang Honpa, Ka vai khempeuh Nangma khut sungah Om cih thei ing Nang deih bang in Nong seek ding ' +
+            'hi, Na omna sungah damtak Nong kai a, Na Kha Siangtho tawh lam Nong lak a Nangma sungah nop semsem nangin Hong ' +
+            'hilh in.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          "Siangtho sapna sung Nong tawn sak a Kei Nong teel hi Nang kiangah hong kai in Hong puah pha'n Topa kong ngen hi " +
+            'Hong seek hong bawl hong zang hong dim Beel seekpa khut sung kong ki-ap hi Hong sam hong lak hong len hong ' +
+            'tonpih in Beel seekpa khut sung kong ki-ap hi',
+        ],
+      },
+    ],
+  },
+  234: {
+    key: 'E',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          '(Halelujah)3 Topa maang hi, (Halelujah)3 Vanglian Topa maang hi.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'A lamdang vangliatnapi tawh, A gualzawhna hong lak hi. Khuamial tung leh sihna tungah, gualzo khin, Thong kia ' +
+            'mite suahtakna pia, Sikkol khempeuh sutat khin, Hong hehpihna hang Gupna ngah ta!',
+        ],
+      },
+    ],
+  },
+  235: {
+    key: 'C',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          '[(Topa maang) 3 (Leitung lungdam hen) 3, Mi khempeuh kipak hen, Topa maang hi.]2',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          "Meikuang Ama' mai ah pai, Galte khempeuh kangtum khin Topa omna ah, (mualte khuainun bang tuisuak)2",
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'A thumaanna vantung in hong lak, Avangliatna mi ten mu, Na khempeuh tung Topa Nangmah, (kong laamto uh hi)2',
+        ],
+      },
+    ],
+  },
+  240: {
+    key: 'G',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Vanglian Pasian Topa, Na min kong phat den ding hi, Vanglian Pasian Topa, Na min kong phat den ding hi, ' +
+            'Zingsang simin Nang kong zong ding Nong thuhilhna bang mang in hong zui ning',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Kal khat khit khat Aman hong kha, Nisim in Topa nung ka zui den ding, Nisim in Topa ka zui den ding, Nisim in ' +
+            'Topa nung ka zui den ning, Kal khat khit khat Aman hongkha, Nisim in Topa nung ka zui den ding',
+        ],
+      },
+    ],
+  },
+  "241:Na min hong phat ung": {
+    key: 'E',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          '(Nang bang omlo hi)4',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          '(Hong it ung Topa)4',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          '(Nang kong deih uh hi)4',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          '(Na min hong phat ung)4',
+        ],
+      },
+    ],
+  },
+  "241:Zeisu kong phat uh hi": {
+    key: 'G',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Zeisu kong phat uh hi, Kumpi te kumpi pa, Hong kum suk aw, Hongkhawl in Topa, Na vangliatna kong phat uh hi.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Siangtho biakpiakna kong pia uh, Siangtho biakpiakna kong pia uh, Siangtho biakpiakna kong pia uh, Zeisu Kumpi ' +
+            'hong kumsuk aw.',
+        ],
+      },
+    ],
+  },
+  285: {
+    key: 'C',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Dahna khuamial bei in, Nopna khua hong vaak hi, Keugaw sehnal gam ah, Thupha guah hong zu hi.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          "Ka kahna lam na tawh nong heisak hi, Ka dahna nopna'n nong heisak hi.",
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Na khut tawh nong lamto, Sangzaw mun nong tun hi, Nang kong phat na aw in, Hih mual kuam teng thawn hi.',
+        ],
+      },
+      {
+        label: 'Bridge',
+        lines: [
+          '(I gual zawh dan hih bang hi)4',
+        ],
+      },
+    ],
+  },
+  326: {
+    key: 'Eb',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Topa ka za na aw, Nangkiang a nong sapna, Kalani nasi manpha tawh, Keima hong sawp nuamna.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Kong pai hi Topa, kong pai hi tu-in, Kalani a nasipha, keimah hong sawp na in.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Zawngkhal kihuai hangin, Ka tha nong khauh sak hi, Nangkha zong kihbang nawnlo in, Mawhna nong sawp sak hi.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Leitung vantung a ding Upna, itna, lawpna Lungnopna muanna kicing, Zeisu hi hong guanpa.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          "Thang hen, mawhmaina si, Thang hen, hong tan itna, Thang hen, Pasian hong piak Khazih Eite' tha leh dikna.",
+        ],
+      },
+    ],
+  },
+  327: {
+    key: 'Ab',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'A sangna lam ka kahto hi, Nisim a thak ka tung zo hi, Kahto kawm kong thum lai Topa, "Hong suanto in a sangzaw ' +
+            'ah"',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Topa aw hong domto in la, Ka muh ngei nai loh van zaangah, Upna tawh hong dingto sak in, A sangzaw ah hong suan ' +
+            'to in.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Lungmanna launa tamna ah, Midangte a ut hangin ah, Kei ka lungsim a ut kei hi, Kei' tupna a sang zaw na hi.",
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "A sangzaw a misiangte' la, Upna tawh kei mah in ka za, Dawi mangpa'n thal in hong kap hang, Ka sangzaw nuam hi " +
+            'leitung sang.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'A sangpen dong ka kah nuam hi, Vangliatna taang ka mu nuam hi, Vantung ka muh dong Topa aw, A sangzaw ah hong ' +
+            'pito aw.',
+        ],
+      },
+    ],
+  },
+  328: {
+    key: 'F',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Naseem un naseem un, Pasian sawltak hihang, I Topa totsa lampi mah a zui hi hang, Ama thunuam in ei hong thahat ' +
+            'sak ding hi, Nasepding imuh peuh, thahatna tawh seem ni.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          '(Naseem un, naseem un)2, Lamen un, thungen un, Topa hongpai mateng seem un.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Naseem un naseem un, gilkialte anvak un Nuntakna tuinah ah migimte paipih un, Singlamteh leh lungdamnathu tawh ' +
+            'kipaak ni, Tangko un man ngenlo, a khawnkhong hong hon hi.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Naseem un nasem un, omhi mikim sepding, Theihkhialhna khuamialgam hi eite sukmang ding, I Topa Pasian min i ' +
+            'pahtawi ding a hi, Tangko un man ngenlo, a khawnkhong hong hon hi.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          "Naseem un, naseem un, Topa' tha tawh seem ding, Kumpi' puan leh lukhu, nuamna eite'n sang ding, Tatkhiatsa " +
+            "midikte tawh eite'n i vek pi'n, Sakhawm ding, man ngenlo, a khawnkhong hong hon hi.",
+        ],
+      },
+    ],
+  },
+  329: {
+    key: 'A',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "Zeisu kia'n singlamteh pua-a, Guakpai ding maw lei mi, Hi lo, mikim puak ding om a, Kei puak ding zong om hi.",
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Singlamteh ke'n ka pua ding hi, Sihna'n hong khah mateng, Kumpi lukhu ka ngah ding hi, Vantung innpi tung leng.",
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'A kikhen let Zeisu khe kiang, Limlang suangphah tungah, Ka kham lukhu ka ngahsuk ciang, Nuamin phat ning Amah.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Aw manpha hi, tua singlamteh, Vaanglian kumpi lukhu, Ka ngah ding hi hin kik ni teh, Hong lak ding lawpna thu.',
+        ],
+      },
+    ],
+  },
+  330: {
+    key: 'Ab',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'A nai a gamla lote ah, Ante min khin zo ta hi, Sim le zo mual lo zaang lo ah Anvuite min zo ta hi.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Topa aw kote hong thuumna, Hong ngai in an nei Topa, An la ding mi hong kuan sak in, An laak hun a kheng ma in.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Zingsang phalvak tuung ahi zong, Sun kim ciang ahi zongin, Hong kuan sak lai in nitak zong, Lo lai teng an ' +
+            'khawm ding in.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Kuan meng un Topa' sawltakte, Anvuite kuai zo ta hi, An kaikhawm khin ni hong tum teh, Lungdamin na ciah ding " +
+            'hi.',
+        ],
+      },
+    ],
+  },
+  331: {
+    key: 'D',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Ciamna kip thupha Zeisu kei a, Pasian vaanglian bang hong ciamsak na pha, Hotkhiatna luahpa Pasian leisa, Kha ' +
+            'Siangtho a suak si a sawpsa.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Ka gen gen ding hi ka sasa ding, Hong Honpa phatna sun ni loh in, Ka gengen ding hi ka sasa ding, Hong Honpa ' +
+            'phatna sun ni loh in.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Thuman'na cing a cing hi nuamna, Ka mitkha'n ka mu hi lianpi nuamna, Vantung mite in ka bil sungah, Hehpihna " +
+            'itna hong gen ka za.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Thuman'na cing hi tawlnga khin hi, Hong Honpa sung lungnuamin ka om hi, Vilkawm ngakkawmin ka ente hi, Ama " +
+            'hoihna itna hong dim hi.',
+        ],
+      },
+    ],
+  },
+  332: {
+    key: 'F',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Kei hong honpa, asi luang in, Ka kumpi hong si maw, Tangtel bangbek keima ading, A lutang hong zang maw.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          "Nangtung kong thuman zawh na'ngin, Topa kei hong huhin, Kumpi tokhom na luah ciangin, Kei hong mangngilh kei in.",
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Keina gitlohnate hangin, Singlamteh tung tau maw, Lamdang hehpihna leh itna, Bangtawh tehthei ding maw.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Ama piansak mi mawhna hang, A piangsakpa Khazih, Hong sih laitak, khuamial suangah Ni a buk mah ding hi.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Kei zong singlamteh ka muh ciang, Zumin ka kiseel diam, Lungdamna tawh lung nehno in, Ka khi ka luangsak diam.',
+        ],
+      },
+    ],
+  },
+  333: {
+    key: 'G',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Hin tawntungna Topa Pasian, Lawmte sang ka it zaw hi, Vantung lam ka zon laitak ah, Topa kiang ka tawn nuam hi, ' +
+            '(Nang kiangah, nang kiangah)2, Vantung lam ka zon laitak ah Topa kiang ka tawn nuam hi.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Leitungah hauhna leh nuamna, Minthan thu ka ngen kei hi, Nangma kiang ka om laitakah, Lungdamin ka sem ding hi, ' +
+            '(Nang kiangah, nang kiangah)2, Nangma kiang ka om laitakah, Lungdamin ka sem ding hi.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Mualkuam khuamialna sung hihang, Tuipi gal ah hong kha in, Hin tawntung na kongpi sungah, Nangmah tawh hong lut ' +
+            'sakin, (Nang kiangah, nang kiangah)2, Hin tawntung na kongpi sungah, Topa kiang ka lut ding hi.',
+        ],
+      },
+    ],
+  },
+  334: {
+    key: 'Ab',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Topa bek hong phel thei hi, Keimah inah nakiang kong beel hi, Na sipha tawh hong sawpin, Na kiangah hong omsak ' +
+            'tawntung in.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Ni simin, nai simin, Sipha than na thei sakin, Hehpih a nong itna tawh, Khaubangin ah keimah hong hen in.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'A kisia thei leitung ah, Damtakin keimah lam hong hilhta, Topa bek i up ciangin, Cikmah hunin lamkhial nawnlo ' +
+            'ding.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Sih ding hun hong tun mateng, Vantung innpi nuamsung tun mateng, Nang kong upna khangsak in, Topa tawh kikhen ' +
+            'nawnlo dingin.',
+        ],
+      },
+    ],
+  },
+  335: {
+    key: 'Ab',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Kumpipa mai ih ding ding, Vantungmi tawh lasa ding, Nung ciangin, nung ciangin, A tang gungei lam zui ding, ' +
+            'Topa min phat tawntung ding, Nung ciangin, nung ciangin.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Kumpipa mai ih ding ding, Vantungmi tawh lasa ding, Kumpipa a min phat ding, Haleluijah, Haleluijah Kumpipa mai ' +
+            'i ding ding.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Vantung khua siklong tum ding, Kumpipa mai ih ding ding, Nung ciangin, nung ciangin, Dahna te paisan dinga, Sa ' +
+            'tawntung ding minphatna, Nung ciangin, nung ciangin.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Ka kha in manpha puak ding, Kumpipa mai ih ding ding, Nung ciangin, nung ciangin, Zawhna A khe mai nga ding, ' +
+            'Amah bang mel kicing ding Nung ciangin, nung ciangin.',
+        ],
+      },
+    ],
+  },
+  336: {
+    key: 'F',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Aw Topa Zeisu kei lungsim, Na thu ka up man a, Sawtpi kazong a nopna in, Lungnop na ka ngah ta.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          "Tuni'n Zeisu simloh inah, Deihna dang omlo pi, Itna hinna tawntung nopna, Topa kiang ka ngah hi.",
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Lungnopna ka zon laitakin, Topa ka mangngilh hi, Honggum Topa ka nial ciangin, Hong it a hong zol hi.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Leitungah nopnate deih in, Lungkim ngah ding inah, Hahkat in ah ka zon hangin, Lungkiatna teng kangah.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          "Zeisu hongit thupha inah, Keimah kangah ma-in, Sithei nopna lungsim neihhang, Topa ka ngaihsun ke'n.",
+        ],
+      },
+    ],
+  },
+  337: {
+    key: 'F',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Hong it Zeisu Topa aw, Tuihual hong nai laitakin, Huihpi nung daih nai loh tawh, Na ang sung hong om sak in, ' +
+            'Nuntak huihpi kam mateng, Hong Honpa aw hong liah in, Keima kha Nong lak mateng, Khawlmun nuamah hong kha in.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Belh ding dang khat beek nei keng, Cimawhin Nang kong beel hi, Hong nusia peuhmah ngei ken, Nong huh Nong neem ' +
+            'lai ding hi, Kong muang hi Topa Nangmah, Huhna Nang kiang ka ngah hi, Topa aw Na kha nuai ah, Keima lu nong ' +
+            'liah ding hi.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Kei deihna teng kicinna, Khazih Topa Nang na hi, Pukte phong mittawte kha, Na damsak lungsim pumpi Nang na dik ' +
+            'Nang na siangtho Kei kihuai mawhna ka dim Ka pumtang sianna nei lo, Nang thutak hehpihna dim.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Ka mawh siinkhin zo ding in, Hehpihna Nang kiang kicing, Damna guntui hong luan in, Ka lung sung siang den na ' +
+            'ding, Nang nuntakna Nak Na hi, Nang mah hong dawndawn sak in, A tawntung nuntak tuili, Ka lung sung hong phul ' +
+            'sak in.',
+        ],
+      },
+    ],
+  },
+  338: {
+    key: 'Db',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Ka lampi sau in a gimhuai a, Vangik pua in kikem khial in, Lungdam lasa in lungsim a nat ciang, Zeisu in kei a ' +
+            'hong kem hiam.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'A hong kem hi, ken ka thei hi, Ka dahna hong phawkpih hi, Sun in omnuamlo in, zan a lauhuai laitak, Hong ' +
+            "gumpa'n hong kem.",
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Sunkhua vak in a hong mial ciangin, Kei kiangah a hong nai om hiam, Ka lampi mialin, lauhuai a tam ciang, Zeisu ' +
+            'in kei a hong kem hiam.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Haksa ze-et, ka thuak lai takin, Zan tawntung khitui luanna tawh, Hong honding om lo, ka dah laitakin, Zeisu in ' +
+            'kei a hong kem hiam.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'I itte tawh, mangpha kipia in, Lungkham lutangnat a bei ciang, Topa in ei bangci in hong mu diam, Zeisu in kei ' +
+            'a hong kem hiam.',
+        ],
+      },
+    ],
+  },
+  339: {
+    key: 'Eb',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Nuntakna tuipi tungah huihnun ciangin, Sih ding cih ngaihsunin na lungkiat ciangin, Thupha khat nungah khat na ' +
+            'ngaihsun inla, Topa in tampi hong pia na thei ding hi.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Thupha khat nungah khat ngaihsun in, A tampi hong pia-in thei ta in, Thupha khat nungah khat ngaihsun in Pasian ' +
+            'in a tampi hong pia thei ta in.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Lungmanna vangik bangin na thuak ngei hiam, Singlamteh hong pua sak in a gik thei hiam, Thupha khat nungah ' +
+            'thupha na ngaihsut leh, Ni simin a tawntung la na sa ding hi.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Midangte a sum a paai na et ciangin Zeisu kiangah na ngah ding sum ngaihsun in, Vantung khua sungah na omna inn ' +
+            'hi zong, Kuamah in lei zo kei sum a om ding hi.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Tua ahih ciangin gal kido lai takin, Pasian in na khempeuh uk hi, Lau kei in, Vantung mihingte in nang kiangah ' +
+            'om hi. Lampi tawp dongin nang a hong huh ding hi.',
+        ],
+      },
+    ],
+  },
+  340: {
+    key: 'Bb',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Lungsim a pha mihingte aw, Topa tungah na lungdam un, Topa a teel mihingte aw, Dahna lungmanna paisan un.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Nuam un, nuam un, Topa tungah na lungdam un, Nuam un, nuam un, Topa tungah lungdam khin un.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Lungdam ve un Topa inah, Leitung vantung a phabel hi, A thupha a laphate tawh, Hong uk a eimah hong phel hi.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Topa a ding galkap na ah, Galte hong zodek hang a ci, Toipa galkapmangte in ah, Galte sangin a tam zaw hi.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Sunlai in khua hong mial hangin, Zanlai in van hong khup hang inah, Na lungsim na mawh lo ding hi, Um in galbei ' +
+            'mateng thupha.',
+        ],
+      },
+    ],
+  },
+  341: {
+    key: 'Eb',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Nang deih bang Topa, nang deih bangbang Nangmah beelseekpa, kei tungman bang Nangma deih bangin kei hong ' +
+            'bawlin, Taang lo mang dingin, nang kong ngak hi.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Nang deih bang Topa, nang deih bangbang, Tuni in Topa, hong sit in nang, Vuksang ngo zaw in tun hong sawp in, ' +
+            'Lungsim neem takin na mai kong kun.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Nang deih bang Topa, nang deih bangbang, Ka liam ka gimna hong huh in nang, Vaangliatna khempeuh nangman' na " +
+            'nei, Hong dam sakin kei hong honpa aw.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          "Nang deih bang Topa, Nang deih bangbang, Keima nuntakna hong uk in nang, Khazih keima sung mi'n muh nading, " +
+            'Hong guan in keisung, na Khasiangtho.',
+        ],
+      },
+    ],
+  },
+  342: {
+    key: 'G',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'Vantung ah I Pa in ahong itna, Hong piak lai siangtho sungah hong genta, Lai siangtho sungah thu angaihpha pen, ' +
+            'Zeisu in kei hong itna mah hi pen.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          "Zeisu'n hong it man ka nuampha hi, Kei hong it hi, kei hong it hi, Zeisu'n hong it man ka nuampha hi, Kei na " +
+            'ngawn hong it hi.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Amah manggilh in ka taisan hangin, Hong it lailai hi ka mangthang hangin, Zeisu hong it ken' ka phawkkik a, Ama " +
+            'angsung ka delh kik vingveng ta.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'A phatna teng tawh a mai ka muh teh, La khat bek sathei ding hong kici leh, Bang la ka sa zaw diam hihlo a ' +
+            "dang, Zeisu in kei hong it piandang lua sa'ng.",
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          "Zeisu'n hong it a kei zong ka it hi, Ka kha hehpih in tan ding hong kum hi, Hong it manin singlamteh tung si a, " +
+            'Tua ahih ciang hong it takpi hi ta.',
+        ],
+      },
+    ],
+  },
+  343: {
+    key: 'C',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "Vantung inn sungah i lawmte'n lasa hi, Hong gum Topa a min a phatna uh hi, Leitungah lungkhamna teng mangngilh " +
+            "khin a, Mi siangthote'n lungdamna la thak a sa.",
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Zeisu min phatni, Kalani mualtung si zo hi, Zeisu min phat hi, Sihna zo a hing kik ta hi.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Hong hehpihna phat na'ng la thak om kim hi, A um ta ding thuphabel a hi ding hi, Topa si a a piang kik a " +
+            'minthanna, Ka gennasa nuambel hi Pasian kiangah.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Tuni sipha tawh a kisil lote in, Tua la thak kuamah in sa thei lo ding hi, Mawhnei te mawhna phel a hong ' +
+            'hehpihna, Phatna lungdamin limtakin la sa ni.',
+        ],
+      },
+    ],
+  },
+  344: {
+    key: 'A',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'I omna inn ngaihsun inla, Ataang gungal khatah om a ci, Misiangthote nuamna a om a, Puanpaak tawh kizem a om hi.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Vantung ah, Vantung ah, I om nading inn Vantung ah Vantung ah, Vantung ah, Vantung ah I om nading inn Vantung ' +
+            'ah.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Nangma lawmte ngaihsun inla, Amai lam amaute'n a zui hi, Lungdamna tawh amauten lasa, Vantung khua dongin kiza " +
+            'hi.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Vantung honggum Topa kiangah, Keima lawmte nuamsa a om hi, Tuamun in gimna om nawnlohna, Keima kha in a ' +
+            'tungnuam hi.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'En in, i lawmte vantung ah, Amau in vantung khua a lut zo, A lungkhana teng bei khin dinga, Gimna tawntung mulo ' +
+            'om zo.',
+        ],
+      },
+    ],
+  },
+  345: {
+    key: 'Ab',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "It aw nuam tak ihmu in tawlnga in, I Topa dip tung lukham in nei in, Nang kong it hang, Topa'n hong it zaw sem, " +
+            'Mangpha Mangpha Mangpha.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Naungek bang nuamtak ihmu hithiat in, Dahna kahna te'n nang hong phawnglo ding, Nang aa a nuam hithiat ihmutna " +
+            'hi, Mangpha Mangpha Mangpha.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          "Hih leitungah ni-liim a bei mateng, Topa'n a tuu buk sung hong khop mateng, Ni vaang taang khuamial a hong bei " +
+            'mateng, Mangpha Mangpha Mangpha.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          "Pasian tokhom mai kimuh kik ma teng, A siatheilo puan a hong piak mateng, Tu'n I theih bangin, I kitheih " +
+            'mateng, Mangpha Mangpha Mangpha.',
+        ],
+      },
+      {
+        label: '5.',
+        lines: [
+          "Min than'na thawhkik zing khuavaak ma teng, Khazih sung a site thawhkik mateng, Ginalo bek tawh hong pai kik lo " +
+            'ding, Mangpha Mangpha Mangpha.',
+        ],
+      },
+    ],
+  },
+  346: {
+    key: 'Ab',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          "Ni a taang khatna gam lamah, Nop sak na'ng gam lamah, Aksi zong a taan'na gamah, Ka om na'ng khua a hi.",
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          "Tua khuapi nuam, khut tawh bawllo, Tua gam ei-ma a ding, Tawntung vantung mi'n la a sa, Ei-ma omna ding hi.",
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          "Gimna tuakna gungal khatah, Lunggim tamna lamah, Kikhel a I nopsak na'ngah, Ka om na'ng in bawlta.",
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Sihna tuipi gal khat lamah, Khuamial na gam sungah, Lungdam nuamna I ngah na ding, A taang in ka mu hi.',
+        ],
+      },
+      {
+        label: '4.',
+        lines: [
+          'Mawhna leh hehna leitungah, Hong liah a mang sak hi, Tawntung tua khuapi nuam sungah, Zeisu tawh om khawm ning.',
+        ],
+      },
+    ],
+  },
+  347: {
+    key: 'G',
+    stanzas: [
+      {
+        label: '1.',
+        lines: [
+          'An le leengtui gam ka tung zo, A phatna teng kei a hi zo, Lungdamhuai ni taang tawntung hi, Keima khuamial leng ' +
+            'mang zo hi.',
+        ],
+      },
+      {
+        label: 'Chorus',
+        lines: [
+          'Aw gam nuampi a pha gampi, Mualsang tung pan ka galet a, Kei ading bawl kholhsa innpi, Tuipi galah ka galmuh ' +
+            'ta, Ka ten nading vantung khuapi, A taangpha hi tuipi galah.',
+        ],
+      },
+      {
+        label: '2.',
+        lines: [
+          'Hong Honpa kei tawh hong vakkhawm, Nuam takin kei tawh hong om khawm, A khut in dam takin hong kai, Vantung ' +
+            'gamgi ciang dong ka nai.',
+        ],
+      },
+      {
+        label: '3.',
+        lines: [
+          'Gamgi gal panin pak namtui, Huih nung hiauhiau tawh hong kizui, A vul ngei lo paakte palhin, Hinna lui luang a ' +
+            'tawntung in.',
         ],
       },
     ],
