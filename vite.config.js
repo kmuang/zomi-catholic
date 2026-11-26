@@ -11,6 +11,7 @@ const publicAssets = [
   'church-logo-512.png',
   'stained-glass.jpg',
   'gal-hiam-book.png',
+  'thungetna-rosary.png',
 ];
 
 export default defineConfig({
