@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { BookOpen, Check, ChevronLeft, House, List, Search, X } from 'lucide-react';
+import { BookOpen, Check, ChevronLeft, House, Info, List, Search, X } from 'lucide-react';
 import { galHiamHymns, hymns } from './hymns';
 import InstallButton from './InstallButton';
 import './styles.css';
@@ -152,6 +152,7 @@ function App() {
   const main = useRef(null);
   const readerTrigger = useRef(null);
   const categories = useRef(null);
+  const about = useRef(null);
   const term = normalize(query);
 
   useEffect(() => {
@@ -307,7 +308,7 @@ function App() {
             event.preventDefault();
             openCollection(false);
           }}>
-            <img src="/labu.svg" width="42" height="42" alt="" />
+            <img src="/church-logo-192.png" width="42" height="42" alt="" />
             <span>Zomi Catholic</span>
           </a>
           <nav className="desktop-nav" aria-label="Hymnal">
@@ -406,7 +407,30 @@ function App() {
         <button className="tab" type="button" aria-current={galHiamOpen ? 'page' : undefined} onClick={() => openCollection(true)}>
           <img src={galHiamCover} width="19" height="28" alt="" /><span lang="ctd">Gal Hiam Labu</span>
         </button>
+        <button className="tab" type="button" aria-haspopup="dialog" onClick={() => about.current.showModal()}>
+          <span className="tab-icon"><Info size={21} aria-hidden="true" /></span><span>About</span>
+        </button>
       </nav>
+      <dialog className="detail categories-dialog" ref={about} aria-labelledby="about-title"
+        onClick={(event) => { if (event.target === event.currentTarget) about.current.close(); }}>
+        <div className="categories-panel">
+          <header className="categories-heading">
+            <h2 id="about-title">About Zomi Catholic</h2>
+            <button type="button" className="icon-button" aria-label="Close About" onClick={() => about.current.close()}>
+              <X size={22} aria-hidden="true" />
+            </button>
+          </header>
+          <p>Search and read hymns from the Zomi Catholic hymnal and Gal Hiam Labu.</p>
+          <p>developed by Noel Muang</p>
+          <div className="about-links">
+            <div>
+              <a href="mailto:ksmuang20@gmail.com?subject=Zomi%20Catholic%20Feedback">Send feedback</a>
+              <p className="feedback-note">Please include the hymnal name, hymn number, and the line that needs correcting.</p>
+            </div>
+            <a href="mailto:ksmuang20@gmail.com">Contact us</a>
+          </div>
+        </div>
+      </dialog>
       {!galHiamOpen && <dialog className="detail categories-dialog" ref={categories} aria-labelledby="categories-title"
         onClick={(event) => { if (event.target === event.currentTarget) categories.current.close(); }}>
         <div className="categories-panel">
